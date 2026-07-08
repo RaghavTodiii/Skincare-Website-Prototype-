@@ -1,0 +1,404 @@
+# these are the prompts we used 
+
+# prompt uesd in chatgpt-
+
+
+
+
+hiiiiiii chatgpttt, I am making a 3d product cosmetic website to sell to a customer, i want it to be high tech, modern looking with advanced and smooth transitions, smooth animations perfect scroll triggers with a 3d product in the center and all regarding information around it. make a prompt to put in lovable AI to create a working e-commerce website with actual checkout sections, buy out page, add to cart feature, 20 different products, about me section, inventory section, latest drop section. give it a cozy warm colour palette with an aesthetic touch 
+use this site https://blinku.in/?srsltid=AfmBOoqPCDY0rV5bCZzat8OSqU-D9YaK8Xp6RPAxSsxVwRBxkLnNkGvI as a reference for all the product details 
+start the prompt with u are a 30 plus years experience at back end as well as front end website developer and write a 10/10 prompt to make the website using lovable.
+
+
+
+
+# prompt we recieved from the above prompt, that we gave to loveable:
+
+
+
+
+
+u are a 30 plus years experience at back end as well as front end website developer, a senior creative director, a 3D web experience designer, a conversion-focused e-commerce expert, and a full-stack engineer who builds premium, production-ready websites.
+
+Create a complete, working, high-tech, modern, warm, cozy, aesthetic 3D cosmetic e-commerce website.
+
+The website should feel like a luxury skincare/cosmetic brand with smooth 3D product interaction, advanced animations, scroll-triggered storytelling, premium product cards, actual add-to-cart flow, checkout pages, buy-now flow, inventory section, latest drop section, about-me/about-brand section, and 20 different products.
+
+Use this website only as a reference for product/category inspiration and e-commerce structure:
+https://blinku.in/?srsltid=AfmBOoqPCDY0rV5bCZzat8OSqU-D9YaK8Xp6RPAxSsxVwRBxkLnNkGvI
+
+Important: Do not copy the exact brand identity, logo, copyrighted images, or UI pixel-by-pixel. Create a new original brand experience inspired by the skincare product categories, offers, product-card structure, and clean beauty positioning.
+
+Brand name: AURELIA SKIN
+Tagline: “Glow deeper. Feel softer. Shine warmer.”
+
+Overall vibe:
+A cozy, warm, futuristic skincare website with glassmorphism, soft shadows, creamy gradients, floating 3D product bottles, premium motion, and elegant minimal typography. It should look like a ₹5–10 lakh premium website, not a basic template.
+
+Colour palette:
+
+* Warm cream: #FFF7EC
+* Soft beige: #EAD8C0
+* Caramel nude: #C89F72
+* Rose clay: #C97C74
+* Cocoa brown: #4A2E24
+* Champagne gold: #D9B36A
+* Soft peach glow: #FFD8BF
+* Deep espresso text: #241713
+
+Typography:
+Use a modern luxury combination:
+
+* Headings: elegant serif-style font
+* Body: clean modern sans-serif
+* Large hero text, soft spacing, rounded buttons, premium editorial layout.
+
+Tech requirements:
+Build this as a fully working responsive web app using:
+
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui components
+* Framer Motion for animations
+* React Three Fiber / Three.js for the 3D product hero
+* Zustand or React Context for cart state
+* LocalStorage persistence for cart and inventory
+* Mock checkout flow with order confirmation
+* Clean component architecture
+* Mobile-first responsive design
+
+Pages/sections required:
+
+1. Home Page
+   Create a stunning hero section with:
+
+* A 3D cosmetic product bottle/jar in the center.
+* Product should slowly rotate, float, and react slightly to mouse movement.
+* Text and information should appear around the 3D object.
+* Left side: headline, subheadline, CTA buttons.
+* Right side: product benefit cards like “SPF 50”, “Vitamin C”, “Barrier Repair”, “Dermat Tested”.
+* Background should have warm animated gradient blobs and subtle particles.
+* CTA buttons: “Shop Latest Drop” and “Explore Rituals”.
+* Add a top announcement bar: “Buy 1 Get 1 | Buy 3 at ₹599 | Free Shipping above ₹999”.
+
+2. Advanced Scroll Storytelling
+   As the user scrolls, animate sections smoothly:
+
+* 3D product stays centered for a few scroll sections.
+* Information cards slide in from left/right.
+* Ingredients float around the product.
+* Product benefits appear one by one.
+* Use scroll-triggered animations with Framer Motion.
+* Add parallax effects, sticky sections, fade-ins, scale transitions, and smooth reveal animations.
+* Keep all animations smooth and premium, not chaotic.
+
+3. Product Catalogue
+   Create 20 different skincare/cosmetic products inspired by the reference website’s categories.
+
+Seed these 20 products:
+
+1. Vitamin C Face Wash – 100ml – ₹199 – original ₹319 – Brightening & dull skin
+2. Vitamin C SPF 50 Sunscreen – 50g – ₹359 – original ₹449 – Daily glow protection
+3. 15% Vitamin C Face Serum – 30ml – ₹259 – original ₹369 – Dark spots & brightening
+4. Vitamin C Serum + Face Wash Combo – ₹449 – original ₹1118 – Brightening routine
+5. Vitamin C Complete Kit – ₹599 – Face wash + serum + sunscreen
+6. Oil + Acne Control Sunscreen SPF 50 – ₹419 – original ₹549 – Acne-prone skin
+7. Anti-Acne Niacinamide Serum – 30ml – ₹299 – original ₹515 – Pimples & oil control
+8. Acne Serum + Sunscreen Combo – ₹449 – original ₹1160 – Oily skin combo
+9. Salicylic Acid Clarifying Gel – ₹329 – Pore care & breakouts
+10. Pollution Defence Barrier Sunscreen SPF 50 – ₹379 – original ₹449 – Anti-pollution shield
+11. GlutaRadiance Face Wash – 100ml – ₹329 – original ₹695 – Pigmentation & glow
+12. GlutaRadiance Sunscreen SPF 50 – 50g – ₹329 – original ₹595 – Pigmentation protection
+13. GlutaRadiance Face Mask – 30g – ₹349 – Glow & bright skin
+14. GlutaRadiance Face Wash + Sunscreen Combo – ₹499 – original ₹1025
+15. GlutaRadiance Mask + Sunscreen Combo – ₹449 – original ₹1015
+16. Ceramide Peptide Face Cream – 50g – ₹359 – original ₹479 – Dry & sensitive skin
+17. Ceramide Peptide Body Lotion – 200ml – ₹399 – original ₹499 – Barrier repair
+18. Hyaluronic Dew Moisturizer – ₹349 – Deep hydration
+19. Kojic Acid Spot Corrector – ₹299 – Dark spot care
+20. Zinc Oxide Mineral Shield Sunscreen – ₹389 – Sensitive skin SPF
+
+Each product card must include:
+
+* Product image placeholder or 3D-style product render
+* Product name
+* Category
+* Price and original price
+* Discount badge
+* Rating
+* Short benefit line
+* Add to Cart button
+* Buy Now button
+* Quick View modal
+* Wishlist heart icon
+* Stock status
+
+Categories:
+
+* Latest Drop
+* Vitamin C Glow
+* Acne Solution
+* Pollution Defence
+* GlutaRadiance
+* Cera Pept Repair
+* Combos
+* Sunscreens
+* Serums
+* Face Wash
+* Moisturizers
+
+Ingredient filters:
+
+* Vitamin C
+* Niacinamide
+* Salicylic Acid
+* Ceramides
+* Hyaluronic Acid
+* Glutathione
+* Kojic Acid
+* Zinc Oxide
+
+4. Latest Drop Section
+   Create a premium horizontal carousel section called “Latest Drop”.
+   Highlight 4 products:
+
+* Oil + Acne Control Sunscreen SPF 50
+* Ceramide Peptide Face Cream
+* GlutaRadiance Face Mask
+* Vitamin C Complete Kit
+
+Add:
+
+* “New Launch” badges
+* Animated product cards
+* Hover tilt effect
+* Smooth carousel navigation
+* “View Product” buttons
+
+5. Product Detail Page
+   Every product should open a detailed product page with:
+
+* Large product image / 3D product preview
+* Product name
+* Price
+* Original price
+* Discount
+* Quantity selector
+* Add to Cart
+* Buy It Now
+* Product description
+* Key ingredients
+* Benefits
+* How to use
+* Suitable for
+* Customer reviews
+* Related products
+* Trust badges: COD Available, Pan India Delivery, Secure Payments, 10,000+ Happy Customers
+
+6. Cart System
+   Create a working cart drawer and cart page:
+
+* Add products to cart
+* Increase/decrease quantity
+* Remove item
+* Show subtotal
+* Show discount
+* Show shipping
+* Show estimated total
+* Free shipping progress bar above ₹999
+* Reward text: “Add 1 more product to unlock your free gift”
+* Checkout button
+* Cart persists in localStorage
+
+7. Checkout / Buy-Out Page
+   Create a real-looking multi-step checkout flow:
+   Step 1: Customer Information
+
+* Name
+* Email
+* Phone
+
+Step 2: Shipping Address
+
+* Address
+* City
+* State
+* Pincode
+* Country
+
+Step 3: Delivery Method
+
+* Standard delivery
+* Express delivery
+
+Step 4: Payment Method
+
+* UPI
+* Card
+* Cash on Delivery
+* Wallet
+
+Step 5: Order Review
+
+* Products
+* Quantity
+* Price
+* Shipping
+* Total
+
+After placing order:
+
+* Show order confirmation page
+* Generate random order ID
+* Show estimated delivery date
+* Show “Thank you for your order”
+* Clear cart after successful order
+
+Use mock payment only. Do not connect to real payment gateway unless explicitly configured later. Keep the UI Stripe/Razorpay-ready.
+
+8. Inventory Section
+   Create an admin-style inventory section/page:
+
+* Table of all 20 products
+* Product name
+* SKU
+* Category
+* Current stock
+* Price
+* Status: In Stock / Low Stock / Out of Stock
+* Edit stock quantity button
+* Search products
+* Filter by category
+* Sort by stock
+* Low stock alert cards
+* Total inventory value
+* Use localStorage so inventory updates persist
+
+9. About Me / About Brand Section
+   Create a warm, human brand section:
+   Title: “Made for skin that wants comfort and confidence.”
+   Content should explain:
+
+* The brand believes skincare should feel simple, warm, effective, and science-backed.
+* Products are designed for daily Indian skincare needs: sun, pollution, acne, dullness, dryness, and pigmentation.
+* The tone should be cozy, premium, and trust-building.
+  Add founder card placeholder:
+* Founder image placeholder
+* Founder note
+* Signature-style text
+* “Our Promise” cards: Clean Formulas, Honest Pricing, Visible Results, Gentle Rituals
+
+10. Offers Section
+    Create an offers strip and dedicated offers cards:
+
+* Buy 1 Get 1
+* Buy Any 3 at ₹599 except combos
+* Free Shipping above ₹999
+* Limited Time Latest Drop
+* First Order 10% Off using code GLOW10
+
+11. Reviews Section
+    Create a polished review carousel:
+
+* 8 customer reviews
+* Star ratings
+* Product purchased
+* Customer name
+* Short testimonial
+* Before/after style placeholder cards, but do not use fake medical claims
+* Keep reviews believable and clean
+
+12. Navigation
+    Navbar should include:
+
+* Home
+* Shop
+* Latest Drop
+* Ingredients
+* About
+* Offers
+* Inventory
+* Cart icon with item count
+
+On mobile:
+
+* Smooth hamburger menu
+* Bottom sticky “Shop Now” CTA
+* Cart drawer should work perfectly
+
+13. Footer
+    Footer should include:
+
+* Brand mission
+* Shop links
+* Ingredients links
+* Policies
+* Newsletter signup
+* Social icons
+* Payment method icons
+* Copyright
+
+14. Animations and Interactions
+    Use:
+
+* Smooth page transitions
+* Scroll-triggered reveals
+* Product card hover tilt
+* Magnetic buttons
+* Floating 3D product
+* Animated gradient background
+* Cart drawer slide-in
+* Checkout step transitions
+* Loading screen with brand logo
+* Microinteractions on buttons
+* Add-to-cart success toast
+* Confetti or soft glow on order confirmation
+* Smooth scrolling across site
+
+15. 3D Product Requirements
+    If no external 3D model is available, create a beautiful 3D cosmetic bottle using Three.js primitives:
+
+* Cylindrical bottle
+* Rounded cap
+* Label area
+* Warm cream/gold material
+* Soft studio lighting
+* Subtle reflections
+* Rotates slowly
+* Changes label/color based on featured product
+* Must not break mobile performance
+
+16. Design Quality Rules
+    The website must not look like a normal Shopify template.
+    It should feel like a premium 3D brand experience.
+    Use lots of whitespace, rounded cards, glass effects, warm shadows, smooth motion, and high-end product storytelling.
+
+17. Functional Rules
+    Make sure:
+
+* All buttons work
+* Products can be added to cart
+* Buy Now directly opens checkout with selected product
+* Cart quantity works
+* Checkout form validates required fields
+* Order confirmation works
+* Inventory page works
+* Search and filters work
+* Website is responsive
+* No broken routes
+* No placeholder lorem ipsum
+* Use clean reusable components
+* Keep code organized
+
+18. Performance Rules
+
+* Optimize animations for smooth performance
+* Avoid heavy infinite animations on mobile
+* Use lazy loading for sections
+* Make 3D canvas responsive
+* Keep layout stable
+* Ensure accessibility with readable contrast and keyboard-friendly buttons
+
+Final output:
+Build the complete website with all pages, components, product data, cart logic, checkout flow, inventory management, animations, responsive design, and polished UI. Make it production-quality and visually impressive enough to sell to a customer.
